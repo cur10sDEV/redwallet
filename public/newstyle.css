@@ -1,0 +1,56 @@
+.newfooter {
+  background: black;
+  color: #ffffffa3;
+}
+
+.logodiv {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.divfooterhead22 {
+  font-size: 22px;
+}
+
+.divfooterhead18 {
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+.hdjahds {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.abhsdwhd {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.hrclass {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100vw;
+  color: #ffffffa3;
+}
+
+.footertext {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.hrclass2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 100vw;
+}
