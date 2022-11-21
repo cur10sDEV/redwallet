@@ -22,4 +22,12 @@ app.post("/contact", (req, res) => {
 	res.redirect("/contact");
 });
 
+app.get("/lea-registration", (req, res) => {
+	res.sendFile(path.join(__dirname + "/public/registration.htm"));
+});
+
+app.post("/lea-registration", (req, res) => {
+	res.redirect("/lea-registration");
+});
+
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
