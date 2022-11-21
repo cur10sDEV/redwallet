@@ -17,9 +17,7 @@ app.get("/contact", (req, res) => {
 });
 
 app.post("/contact", (req, res) => {
-	const { name, email, text } = req.body;
-	console.log(req.body);
-	res.render("/");
+	res.redirect("/contact");
 });
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
